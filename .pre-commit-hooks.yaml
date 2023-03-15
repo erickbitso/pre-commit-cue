@@ -1,0 +1,6 @@
+-   id: cue-fmt
+    name: 'cue fmt'
+    entry: run-cue-fmt.sh
+    files: '\.cue$'
+    language: 'script'
+    description: "Runs `cue fmt`, requires cue"
